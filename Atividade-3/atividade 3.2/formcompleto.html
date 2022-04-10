@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Data</title>
+</head>
+
+<body>
+    <form>
+        <p><b>Identificação do Usuário</b></p>
+        <label for="nome_id">Nome:</label>
+        <input type="name" name="name" id="nome_id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="senha_Id">Senha:</label>
+        <input type="password" name="password" id="senha" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="cpf_Id">CPF:</label>
+        <input type="number" name="cpf" id="cpf_Id" size="15" maxlength="11" required></p>
+        <br><br>
+
+        <label for="sexo_id" required>Sexo:</label>
+        <select name="sexo" id="sexo_id">
+            <option value="M">Masculino</option>
+            <option value="M">Feminino</option>
+        </select>
+        <br><br>
+
+        <label for="data_Id">Data de nascimento:</label>
+        <input type="date" name="date" id="data_Id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="estadocivil_Id">Estado Civil::</label>
+        <input type="name" name="estadocivil" id="estadocivil_Id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="escolaridade_Id">Escolaridade: </label>
+        <input type="name" name="escolaridade" id="escolaridade_Id" size="15" maxlength="30">
+        <br><br>
+
+        <label for="ocupacao_Id">Ocupação principal:</label>
+        <input type="name" name="ocupação" id="ocupacao_Id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="renda_Id">Renda mensal:</label>
+        <input type="number" name="renda" id="renda_Id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="dependentes_Id">Número de dependentes:</label>
+        <input type="number" name="dependentes" required="dependentes_Id" size="15" maxlength="30" required>
+        <br><br>
+
+        <label for="telefone_Id">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone_Id" size="9" maxlength="30" required>
+        <br><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="email_id" required>
+        <br><br>
+
+        <p><b>Localização</b></p>
+
+
+        <label for="estado">Estado</label>
+        <input type="name" name="estado" id="estado" required>
+        <br><br>
+
+        <label for="cidade">Cidade</label>
+        <input type="name" name="cidade" id="cidade" required>
+        <br><br>
+
+        <p><b>Mensagem do Usuário</b></p>
+
+
+        <label for="urgencia_id">Grau de Urgência</label><br>
+        <textarea name="urgencia" id="urgencia_id" maxlength="50"></textarea><br><br>
+
+        <label for="mensagem_id">Mensagem</label><br>
+        <textarea name="mensagem" id="mensagem_id" maxlength="100"></textarea><br><br>
+
+
+
+        <label> Reportar erro</label><br>
+        <input type="file" id="myFile" /> <br><br>
+
+        <button type="submit" id="botao_id">
+            Enviar
+        </button>
+
+    </form>
+</body>
+
+</html>
