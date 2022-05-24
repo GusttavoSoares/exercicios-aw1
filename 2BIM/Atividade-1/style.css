@@ -1,0 +1,19 @@
+.stl1:hover{
+    color: green;
+}
+
+.stl2:hover{
+    font-size: larger;
+}
+
+.stl3:hover{
+    background-color: blueviolet;
+}
+
+.stl4:hover{
+    font-family: fantasy;
+}
+
+.stl5:hover{
+    border: solid;
+}
