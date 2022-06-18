@@ -24,9 +24,26 @@
             color: #43a86a;
             font-family: "Franklin Gothic Medium", fantasy;
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
     </style>
 
-    <h1>Título</h1>
+    <h1 style="text-align: center">Título</h1>
     <!-- adicionando css inline-->
     <p style="color: #4d24a0; font-family: Fantasy">Colocando <b>Inline</b>: Lorem ipsum dolor sit, amet consectetur
         adipisicing elit. Corporis aliquam reiciendis quod, vel est excepturi aut saepe soluta optio animi vero minus
@@ -70,5 +87,66 @@
 
     <p>text-indent permite recuar a primeira linha do teexto dentro de um elemento</p>
 </body>
+
+<h1 style="color:#c344c5; text-align: center"> Aula 2</h1>
+
+<table>
+    <tr>
+        <th>Seletor</th>
+        <th>Padrão</th>
+        <th>Exemplo</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <th>Universal</th>
+        <th>*</th>
+        <th>*</th>
+        <th>Seleciona todos os elementos</th>
+    </tr>
+    <tr>
+        <th>Tipo</th>
+        <th>e</th>
+        <th>p</th>
+        <th>Seleciona todos os elementos p</th>
+    </tr>
+    <tr>
+        <th>Classe</th>
+        <th>.class</th>
+        <th>.erro</th>
+        <th>Seleciona todos os elementos com classe erro</th>
+    </tr>
+    <tr>
+        <th>ID</th>
+        <th>#id</th>
+        <th>#conteudo</th>
+        <th>Seleciona todos os elementos de id <b>conteudo</b></th>
+    </tr>
+    <tr>
+        <th>Descendente</th>
+        <th>e1 e2</th>
+        <th>p a</th>
+        <th>Seleciona todo elemento a descdente de um elemento p </th>
+    </tr>
+    <tr>
+        <th>Filho</th>
+        <th>e1>e2</th>
+        <th>p > a</th>
+        <th>Seleciona todo elemento a filho de um elemento p </th>
+    </tr>
+    <tr>
+        <th>Irmão Adjacente</th>
+        <th>e1 + e2</th>
+        <th>h1 + p</th>
+        <th>Seleciona todo elemento imediatamente precedido de um elemento h1 </th>
+    </tr>
+    <tr>
+        <th>Irmão </th>
+        <th>e1 ~ e2</th>
+        <th>h1 ~ p</th>
+        <th>Seleciona todo elemento  precedido de um elemento h1 </th>
+    </tr>
+
+
+</table>
 
 </html>
