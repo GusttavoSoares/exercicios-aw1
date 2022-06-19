@@ -4,11 +4,11 @@ article a {background: red;}
  article p b {background: red;}
  article p > b {background: red;}
  article p > a {background: red;}
- article h3 + p {background: red;}
+}
  article p + p {background: red;}
  article h3 ~ p {background: red;}
 */
-
+article h3 + p {background: red;
 h1 {
   font-family: cursive;
   font-size: 24px;

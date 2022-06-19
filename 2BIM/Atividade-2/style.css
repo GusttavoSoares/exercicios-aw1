@@ -1,0 +1,12 @@
+div p + p {
+    background-color: blue;
+}
+
+div p + h4 {
+    background-color: red;
+}
+
+article p + h4 {
+    background-color: red;
+}
+
