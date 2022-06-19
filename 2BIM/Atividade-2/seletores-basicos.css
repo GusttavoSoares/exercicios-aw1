@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ddd;
+}
+
+#conteudo {
+    width: 800px;
+    background-color: pink;
+    border-style: initial;
+}
+
+.cancelado {
+  text-decoration: line-through;
+}
+
+ul {
+    padding-bottom: 40px;
+}
+
+ul  li{
+    color: rgb(125, 214, 47);
+}
+
+#conteudo > ul {
+    margin-bottom: 20px;
+}
+
+ul > li {
+    margin-bottom: 20px;
+}
+
+ul + p {
+    color: red;
+}
+
+ul ~ p {
+    font-style: italic;
+}
+
+
