@@ -10,3 +10,22 @@ article p + h4 {
     background-color: red;
 }
 
+.stl1:hover{
+   color: pink;
+}
+
+.stl2:hover{
+    font-size: 20px;
+}
+
+.stl3:hover{
+    background-color: rgb(113, 216, 113);
+ }
+
+ .stl4:hover{
+   font-family: fantasy;
+ }
+
+ .stl5:hover{
+    border-style: double;
+  }
