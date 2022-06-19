@@ -1,0 +1,40 @@
+/*
+TESTAR UM DE CADA VEZ
+article a {background: red;}
+ article p b {background: red;}
+ article p > b {background: red;}
+ article p > a {background: red;}
+ article h3 + p {background: red;}
+ article p + p {background: red;}
+ article h3 ~ p {background: red;}
+*/
+
+h1 {
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: 900;
+  color: #02b547;
+  text-align: center;
+}
+
+p {
+  color: #43a86a;
+  font-family: "Franklin Gothic Medium", fantasy;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
