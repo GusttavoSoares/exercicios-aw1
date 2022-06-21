@@ -22,16 +22,13 @@ ul {
 }
 
 ul  li{
-    color: rgb(125, 214, 47);
+    color: rgb(22, 1, 255);
 }
 
-#conteudo > ul {
-    margin-bottom: 20px;
+#conteudo > ul > li {
+    margin-bottom: 0 0 20px 0;
 }
 
-ul > li {
-    margin-bottom: 20px;
-}
 
 ul + p {
     color: red;

@@ -1,14 +1,15 @@
-div p + p {
+p + p {
     background-color: blue;
 }
 
-div p + h4 {
+ p + h4 {
     background-color: red;
 }
 
-article p + h4 {
-    background-color: red;
+a {
+    text-decoration: none;
 }
+
 
 .stl1:hover{
    color: pink;
