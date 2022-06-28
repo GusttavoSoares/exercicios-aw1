@@ -1,11 +1,17 @@
-.container {
-    display: flex;
+div:nth-of-type(1){
+    width: 48%;
 }
 
-.column-1{
-    width: 50%;
+div:nth-of-type(2){
+    width: 48%;
 }
 
-.column-2{
-    width: 50%;
+div:nth-of-type(1){
+    width: 48%;
+    float: left;
+}
+
+div:nth-of-type(2){
+    width: 48%;
+    float: right;
 }
