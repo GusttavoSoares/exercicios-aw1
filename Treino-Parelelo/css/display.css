@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.um { 
+    background: orange;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+.dois {
+   box-sizing: border-box;
+    background: red;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#inline {
+   display: inline;
+   background: rgb(75, 24, 56);
+}
+
+#block{
+    display: block;
+    background: rgb(228, 216, 35);
+}
+
+#inline-block{
+    display: inline-block;
+    background: rgb(16, 217, 23);
+    height: 30px;
+}
+
