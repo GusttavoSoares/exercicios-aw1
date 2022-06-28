@@ -1,0 +1,24 @@
+div { 
+    /* Mesmo definindo o width e height, ao colocar um padding e border-width os valores são somados ao box, dessa forma passando de 150px */
+    background: orange;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+div + div {
+    /* com o box-sizing: border-box o padding e border fazem parte da conta do width e height, garantindo que ficará com 150px ( não pode passar do valor, para não transbordar) */
+
+   box-sizing: border-box;
+    background: red;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+}
