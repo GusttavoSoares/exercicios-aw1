@@ -1,0 +1,34 @@
+<!-- 
+Considere o problema de calcular o salário líquido de um funcionário, considerando que
+sobre o seu salário bruto, incide um desconto de 8,5% para a previdência (INSS). Feito o
+desconto da previdência, sobre o restante é feito um desconto de 12,5% a título de imposto
+de renda (IRRF). Mostrar ao final o nome do funcionário, o salário bruto e o salário líquido.
+
+Exemplo de Saída
+Nome: José da Silva
+Salário Bruto: R$ 1.000,00
+Salário Líquido: R$ 800,62 (Desconto INSS: R$ 85,00 e Desconto IRRF: R$ 114,38) 
+Obs.: Fazer a entrada de dados diretamente pelo código JS usando var. Saída com document.write() 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <script>
+        var nome, salarioBruto, salarioLiquido;
+        nome = "José da Silva"
+        salarioBruto = 1000;
+        salarioLiquido = salarioBruto - (salarioBruto * 0.085);
+        salarioLiquido = salarioLiquido - (salarioLiquido * 0.125);
+      
+        document.write(nome, "\n", salarioBruto, "\n", salarioLiquido);
+        
+    </script>
+</body>
+</html>
