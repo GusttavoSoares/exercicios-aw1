@@ -1,0 +1,32 @@
+<!-- Escreva um programa que armazene em um vetor 30 números inteiros menores do que 15
+gerados aleatoriamente e, em seguida, determine qual a porcentagem de números menores
+do que 8 e qual a porcentagem de números maiores do que 10. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <script>
+        var numeros = [];
+        var porcentagemMenor8 = 0;
+        var porcentagemMaior10 = 0;
+        for (var i = 0; i < 30; i++) {
+            // gera numeros aleatorios inteiros
+            numeros.push((Math.floor(Math.random() * 14)));
+            if(numeros[i] < 8) {
+                porcentagemMenor8 += 3.33;
+            }
+            else if (numeros[i] > 10){
+                porcentagemMaior10 += 3.33;
+            }
+        }
+        
+        document.write(numeros, "\n", Math.round(porcentagemMenor8) , "\n",  Math.round(porcentagemMaior10));
+    </script>
+</body>
+</html>
